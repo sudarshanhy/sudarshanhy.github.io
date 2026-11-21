@@ -1,0 +1,40 @@
+# Site-level copy of the Polar palette with Kannada colour names.
+# Accent palette offered in the appearance panel. Each accent has a tone tuned for
+# dark backgrounds and one for light backgrounds. `params.accent` picks the default;
+# otherwise the first entry is used.
+
+[[palette]]
+name = "blue"
+label = "ನೀಲಿ"
+dark = "#23b0ff"
+light = "#0072b5"
+
+[[palette]]
+name = "green"
+label = "ಹಸಿರು"
+dark = "#00d084"
+light = "#00804f"
+
+[[palette]]
+name = "purple"
+label = "ನೇರಳೆ"
+dark = "#b07cf8"
+light = "#7c3aed"
+
+[[palette]]
+name = "pink"
+label = "ಗುಲಾಬಿ"
+dark = "#ff6b9d"
+light = "#c2185b"
+
+[[palette]]
+name = "red"
+label = "ಕೆಂಪು"
+dark = "#ff5c6c"
+light = "#c8102e"
+
+[[palette]]
+name = "orange"
+label = "ಕಿತ್ತಳೆ"
+dark = "#ff8c42"
+light = "#b84a00"

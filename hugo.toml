@@ -1,0 +1,45 @@
+baseURL = "/"   # CI passes the real GitHub Pages URL with --baseURL
+locale = "kn"
+title = "ಸುದರ್ಶನ್ ಎಚ್ ವೈ"
+theme = "polar"
+
+[pagination]
+  pagerSize = 10
+
+[markup.goldmark.renderer]
+  unsafe = true
+  # Poems: keep every line break exactly as written.
+  hardWraps = true
+
+[markup.goldmark.extensions.typographer]
+  # Keep the poet's punctuation exactly as typed (no automatic curly quotes or dashes).
+  disable = true
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  author = "ಸುದರ್ಶನ್ ಎಚ್ ವೈ"
+  description = "ಸುದರ್ಶನ್ ಎಚ್ ವೈ ಅವರ ಕನ್ನಡ ಕವನಗಳು ಮತ್ತು ಬರಹಗಳು"
+  accent = "blue"
+  readingTime = true
+  mainSections = ["posts"]
+  homePosts = 3
+
+[params.logo]
+  icon = "󰏫"
+  text = "ಸುದರ್ಶನ್ ಎಚ್ ವೈ"
+
+# Comments (giscus) are off until the site lives in a public repo with Discussions enabled.
+
+[[menu.main]]
+  identifier = "posts"
+  name = "󰗚 ಬರಹಗಳು"
+  pageRef = "/posts"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "󰘨 ನನ್ನ ಬಗ್ಗೆ"
+  pageRef = "/aboutme"
+  weight = 2
