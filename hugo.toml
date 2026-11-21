@@ -30,7 +30,13 @@ theme = "polar"
   icon = "󰏫"
   text = "ಸುದರ್ಶನ್ ಎಚ್ ವೈ"
 
-# Comments (giscus) are off until the site lives in a public repo with Discussions enabled.
+[params.giscus]
+  repo = "sudarshanhy/sudarshanhy.github.io"
+  repoId = "R_kgDOV2erhg"
+  category = "General"
+  categoryId = "DIC_kwDOV2erhs4DLpPD"
+  mapping = "pathname"
+  lang = "en"   # giscus has no Kannada interface; without this the theme would request "kn"
 
 [[menu.main]]
   identifier = "posts"
