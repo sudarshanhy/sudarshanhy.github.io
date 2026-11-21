@@ -1,5 +1,5 @@
 +++
-title = "ನೀವೇದನೆ"
+title = "ನಿವೇದನೆ"
 date = 2026-11-20
 tags = ["ಭಾವ"]
 categories = ["ಕವನ"]
